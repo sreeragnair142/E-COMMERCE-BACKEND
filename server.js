@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 mongoose
-  .connect(process.env.MONGODB_URL || "", {
+  .connect(process.env.MONGODB_URL || 'mongodb://localhost/amazona', {
     useNewUrlParser: true,
   })
   .then(() => console.log("MongoDB Connected"))
