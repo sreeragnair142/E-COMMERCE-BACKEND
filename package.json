@@ -1,4 +1,4 @@
-    {
+{
     "name": "amazone_clone",
     "type": "module",
     "version": "1.0.0",
@@ -6,7 +6,7 @@
     "main": "index.js",
     "scripts": {
         "start": "node server.js",
-        "dev":"nodemon server.js"
+        "dev": "nodemon server.js"
     },
     "repository": {
         "type": "git",
@@ -20,6 +20,7 @@
     "homepage": "https://github.com/sreerag-o-s/Amazone#readme",
     "dependencies": {
         "bcrypt": "^5.0.1",
+        "cors": "^2.8.5",
         "dotenv": "^16.0.0",
         "express": "^4.17.2",
         "express-async-handler": "^1.2.0",
